@@ -20,7 +20,7 @@ namespace IsEven
                 Console.WriteLine("The number" + num + " is even");
                 Console.ReadKey();
             }
-            else // If num isn't even, must be false
+            else if(num % 2) // else if added, to demonstrate modulus functionality
             {
                 Console.WriteLine("The number " + num + " is even");
                 Console.ReadKey();
